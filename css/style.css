@@ -8,7 +8,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
-	margin: 2.5em 5em;
+	margin: 2.5em 2.5em;
 }
 
 h1 {
@@ -31,4 +31,10 @@ h3 {
 
 p {
 	margin: 0.5em 0;
+}
+
+@media only screen and (min-width: 500px) {
+	body {
+		margin: 2.5em 5em;
+	}
 }
