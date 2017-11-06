@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+}
+
+body {
+	color: #626567;
+	font-family: 'Open Sans', helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	margin: 2.5em 5em;
+}
+
+h1 {
+	color: #28B463;
+	font-size: 2em;
+	margin: 0.5em 0;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	color: #3498DB;
+	font-size: 0.75em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 2em 0 0 0;
+}
+
+p {
+	margin: 0.5em 0;
+}
