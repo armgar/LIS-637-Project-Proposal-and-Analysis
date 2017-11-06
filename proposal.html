@@ -15,18 +15,18 @@
 			<h1>LIS-637&mdash;Project Proposal and Analysis</h1>
 		</header>
 		<section>
-			<h3>Team Profile &amp; Team Name</h3>
-			<p>
-				<strong>Global Transit Solutions</strong>
+			<h2>Team Profile &amp; Team Name</h2>
+			<h3>Global Transit Solutions</h3>
+			<p id="names">
+				<ul>
+					<li><strong>Kevin Cudahy</strong>: UX Design, User Research</li>
+					<li><strong>Armando Garcia</strong>: Graphic Design, HTML/CSS, Writing</li>
+					<li><strong>Christine Sun</strong>: Graphic Design, Strategy</li>
+				</ul>
 			</p>
-			<ul>
-				<li><strong>Kevin Cudahy</strong>: UX Design, User Research</li>
-				<li><strong>Armando Garcia</strong>: Graphic Design, HTML/CSS, Writing</li>
-				<li><strong>Christine Sun</strong>: Graphic Design, Strategy</li>
-			</ul>
 		</section>
 		<section>
-			<h3>Problem Statement</h3>
+			<h2>Problem Statement</h2>
 			<p>
 				Currently, customers have no means of checking allocation on their Metrocards. MTA also fails to provide an equation to the public that allows customers to determine their unique, fair pricing structures for refills.
 			</p>
@@ -41,28 +41,109 @@
 			</p>
 		</section>
 		<section>
-			<h3>User Analysis</h3>
+			<h2>User Analysis</h2>
 			<p>
 				A list of key, identifying characteristics of our user population:
+				<ul>
+					<li>Age: Any</li>
+					<li>Income: Any</li>
+					<li>Gender: Any</li>
+					<li>Country: Any (plan on visiting, have visited, if not a resident of NYC)</li>
+					<li>Language: English</li>
+					<li>Education: Computer proficient and literate</li>
+					<li>Physical limitations: able to access public transportation</li>
+					<li>Computer experience: intermediate, comfortable using the computer</li>
+					<li>Web experience: intermediate: able to access the internet</li>
+					<li>Motivation, attitude: Motivated to save $. Motivated to not waste $</li>
+					<li>Identify different classes of users, e.g.:
+						<ul>
+							<li>By role (student, teacher, working professional)</li>
+							<li>By characteristics (age, motivation)</li>
+						</ul>
+					</li>
+				</ul>
 			</p>
-			<ul>
-				<li>Age: Any</li>
-				<li>Income: Any</li>
-				<li>Gender: Any</li>
-				<li>Country: Any (plan on visiting, have visited, if not a resident of NYC)</li>
-				<li>Language: English</li>
-				<li>Education: Computer proficient and literate</li>
-				<li>Physical limitations: able to access public transportation</li>
-				<li>Computer experience: intermediate, comfortable using the computer</li>
-				<li>Web experience: intermediate: able to access the internet</li>
-				<li>Motivation, attitude: Motivated to save $. Motivated to not waste $</li>
-				<li>Identify different classes of users, e.g.:
-					<ul>
-						<li>By role (student, teacher, working professional)</li>
-						<li>By characteristics (age, motivation)</li>
-					</ul>
-				</li>
-			</ul>
+		</section>
+		<section>
+			<h2>Task Analysis</h2>
+			<h3>User Stories</h3>
+			<p>
+				<strong>As a commuter</strong>, I want to update my Metrocard with the exact amount necessary because I’m only working three days this week and I don’t want to overspend.
+			</p>
+			<p>
+				<strong>As a tourist</strong>, I’m buying swipes for my family of four and we’re all using the same Metrocard. I want to maximize my spending and not have extra money on the card when we leave New York.
+			</p>
+			<p>
+				<strong>As a businessman</strong>, I want to use the Metrocard I have from my last business trip, but don’t know how much is on it, or how much I should put on it for my two-day conference. I’m only going to meetings, and back to my hotel. How much should I put on?
+
+			</p>
+			<p>
+				Possible product name:<br>
+				<img src="images/metrocalc-logotype.png" alt="Metro Calc">
+			</p>
+			<h3>User Tasks</h3>
+			<p>
+				The following tasks can be performed as users see fit:
+				<ul>
+					<li>Check how much value is left on your Metrocard
+						<ol>
+							<li>User must input the Metrocard’s ID number (located on back)</li>
+							<li>User must submit the info</li>
+						</ol>
+					</li>
+					<li>Check how much time is left on your Metrocard
+						<ol>
+							<li>User must input the Metrocard’s ID number (located on back)</li>
+							<li>User must submit the info</li>
+						</ol>
+					</li>
+					<li>Calculate how much value to add for a specific amount of rides on your Metrocard
+						<ol>
+							<li>User must input the Metrocard’s ID number (located on back)</li>
+							<li>User must submit the info</li>
+							<li>User should scroll to see their pricing matrix</li>
+						</ol>
+					</li>
+					<li>Calculate how much value to add for a specific amount of rides on your Metrocard
+						<ol>
+							<li>User must input the Metrocard’s ID number (located on back)</li>
+							<li>User must submit the info</li>
+							<li>User should scroll to see their pricing matrix</li>
+							<li>User can choose the value</li>
+							<li>User adds value to cart</li>
+							<li>User pays and checks out; the time/value is added to their card</li>
+						</ol>
+					</li>
+					<li>Check MTA updates on Twitter
+						<ol>
+							<li>User must agree to terms and conditions</li>
+							<li>UUser opens app to see Twitter feed</li>
+						</ol>
+					</li>
+				</ul>
+			</p>
+			<p>
+				Errors that may occur during task performance:
+				<ul>
+					<li>User is unable to locate ID number on back of Metrocard</li>
+					<li>Metrocard is expired</li>
+					<li>User enters incorrect ID</li>
+					<li>User attempts to buy more than one value/package</li>
+				</ul>
+			</p>
+		</section>
+		<section>
+			<h2>Evaluation</h2>
+			<p>
+				We shall evaluate the performance of the application through observations and usability testing by rating the following dimensions:
+				<ul>
+					<li>Ease of use — discoverability</li>
+					<li>Proportion of users</li>
+					<li>Ratio of correct, start-to-end results</li>
+					<li>Easy to learn</li>
+					<li>User uses the least amount of money for the amount of trip desired.</li>
+				</ul>
+			</p>
 		</section>
 	</body>
 </html>
