@@ -79,7 +79,8 @@ li{
 	line-height: 1.4em;
 }
 
-img {
+img,
+.storyboard-image {
 	margin: auto;
 	width: 100%;
 }
