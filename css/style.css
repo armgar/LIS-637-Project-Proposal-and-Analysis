@@ -79,9 +79,18 @@ li{
 	line-height: 1.4em;
 }
 
-img,
-.storyboard-image {
+img {
 	margin: auto;
+	width: 100%;
+}
+
+.storyboard-image:first-of-type {
+	margin: 25px 25% 0;
+	width: 50%;
+}
+
+.storyboard-image {
+	margin: 10px auto 0 auto;
 	width: 100%;
 }
 
