@@ -33,6 +33,18 @@ a:active {
 	text-decoration: underline;
 }
 
+#proto-link {
+	padding-top: 25px;
+}
+
+#link-to-proto {
+	text-align: center;
+	width: 50%;
+	margin: auto 25%;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
 #link-to-top {
 	font-size: 1.5em;
 }
