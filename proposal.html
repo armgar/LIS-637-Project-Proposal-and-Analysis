@@ -1,163 +1,232 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head lang="en">
 		<meta charset="UTF-8">
+		<title>LIS-637&mdash;Project Proposal and Analysis</title>
   		<meta name="description" content="LIS-637 Group Project">
  		<meta name="keywords" content="HTML,CSS,JavaScript">
 		<meta name="author" content="Kevin Cudahy, Armando Garcia, Christine Sun">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>LIS-637&mdash;Project Proposal and Analysis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
 		<header id="top">
-			<h1>LIS-637&mdash;<br id="mobile-break">Project Proposal and Analysis</h1>
-			<nav>
-				<a href="#team">Team Name &amp; Profile</a> |
-				<a href="#statement">Problem Statement</a> |
-				<a href="#useranalysis">User Analysis</a> |
-				<a href="#storyboard">Storyboard</a> |
-				<a href="#taskanalysis">Task Analysis</a> |
-				<a href="#evaluation">Evaluation</a>
-			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="p-3 col-sm-12 text-center">
+						<h1 class="pt-4 text-center">
+							MetroCalc<br><small class="text-muted">Case Study</small>
+						</h1>
+						<nav class="py-4">
+							<a class="px-2" href="#proposal">Proposal</a> |
+							<a class="px-2" href="#prototype">Prototype</a> |
+							<a class="px-2" href="#testing">User Testing</a>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</header>
-		<section id="proto-link">
-			<a href="http://armgardesign.com/lis-637/protoype/index.html" id="link-to-proto">Click to use MetroCalc</a>
-		</section>
-		<section>
-			<h2 id="team">Team Name &amp; Profile</h2>
-			<h3>Global Transit Solutions</h3>
-			<p id="names">
-				<ul>
-					<li><strong>Kevin Cudahy</strong>: UX Design, User Research</li>
-					<li><strong>Armando Garcia</strong>: Graphic Design, HTML/CSS, Writing</li>
-					<li><strong>Christine Sun</strong>: Graphic Design, Strategy</li>
-				</ul>
-			</p>
-		</section>
 		<hr>
-		<section>
-			<h2 id="statement">Problem Statement</h2>
-			<p>
-				Currently, customers have no means of checking allocation on their Metrocards. MTA also fails to provide an equation to the public that allows customers to determine their unique, fair pricing structures for refills.
-			</p>
-			<p>
-				As a solution to these issues, the app aims to provide MTA NY Subway customers a simple way to calculate prices for convenience and fair, purchasing power. The app also aims to fill the gap of a guiding matrix for customers to make decisions based on value per ride or weekly and monthly passes.
-			</p>
-			<p>
-				This takes away a lot of the guesswork and alleviates some of the stressors that come with public transportation. Any subway rider can take advantage of the program, including visitors.
-			</p>
-			<p>
-				Some learning curves of the app will include the customer getting accustomed to checking for their ID. The data will also be hypothetical, since MTA doesn’t provide customers with access to details that the unique ID gives access. Users also have to possess some desire to save on the amount they spend on riding the trains.
-			</p>
-		</section>
-		<hr>
-		<section>
-			<h2 id="useranalysis">User Analysis</h2>
-			<h3>User Stories</h3>
-			<p>
-				<strong>As a commuter</strong>, I want to update my Metrocard with the exact amount necessary because I’m only working three days this week and I don’t want to overspend.
-			</p>
-			<p>
-				<strong>As a tourist</strong>, I’m buying swipes for my family of four and we’re all using the same Metrocard. I want to maximize my spending and not have extra money on the card when we leave New York.
-			</p>
-			<p>
-				<strong>As a businessman</strong>, I want to use the Metrocard I have from my last business trip, but don’t know how much is on it, or how much I should put on it for my two-day conference. I’m only going to meetings, and back to my hotel. How much should I put on?
-
-			</p>
-			<p>
-				Possible product name:<br>
-				<img src="images/metrocalc-logotype.png" alt="Metro Calc">
-			</p>
-			<p>
-				A list of key, identifying characteristics of our user population:
-				<ul>
-					<li>Age: Any</li>
-					<li>Income: Any</li>
-					<li>Gender: Any</li>
-					<li>Country: Any (plan on visiting, have visited, if not a resident of NYC)</li>
-					<li>Language: English</li>
-					<li>Education: Computer proficient and literate</li>
-					<li>Physical limitations: able to access public transportation</li>
-					<li>Computer experience: intermediate, comfortable using the computer</li>
-					<li>Web experience: intermediate: able to access the internet</li>
-					<li>Motivation, attitude: Motivated to save $. Motivated to not waste $</li>
-					<li>Identify different classes of users, e.g.:
+		<section id="proposal">
+			<div class="container">
+				<div class="row">
+					<div class="pt-3 col-sm-12 text-center">
+						<h2>Proposal</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">Team Name &amp; Profile</h3>
+						<h4>Global Transit Solutions</h4>
 						<ul>
-							<li>By role (student, teacher, working professional)</li>
-							<li>By characteristics (age, motivation)</li>
+							<li><strong>Kevin Cudahy</strong>: UX Design, User Research</li>
+							<li><strong>Armando Garcia</strong>: Graphic Design, HTML/CSS, Writing</li>
+							<li><strong>Christine Sun</strong>: Graphic Design, Strategy</li>
 						</ul>
-					</li>
-				</ul>
-			</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">Problem Statement</h3>
+						<p>
+							Currently, customers have no means of checking allocation on their Metrocards. MTA also fails to provide an equation to the public that allows customers to determine their unique, fair pricing structures for refills.
+						</p>
+						<p>
+							As a solution to these issues, the app aims to provide MTA NY Subway customers a simple way to calculate prices for convenience and fair, purchasing power. The app also aims to fill the gap of a guiding matrix for customers to make decisions based on value per ride or weekly and monthly passes.
+						</p>
+						<p>
+							This takes away a lot of the guesswork and alleviates some of the stressors that come with public transportation. Any subway rider can take advantage of the program, including visitors.
+						</p>
+						<p>
+							Some learning curves of the app will include the customer getting accustomed to checking for their ID. The data will also be hypothetical, since MTA doesn’t provide customers with access to details that the unique ID gives access. Users also have to possess some desire to save on the amount they spend on riding the trains.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">User &amp; Task Analysis</h3>
+						<h4>User Stories</h4>
+						<p>
+							<strong>As a commuter</strong>, I want to update my Metrocard with the exact amount necessary because I’m only working three days this week and I don’t want to overspend.
+						</p>
+						<p>
+							<strong>As a tourist</strong>, I’m buying swipes for my family of four and we’re all using the same Metrocard. I want to maximize my spending and not have extra money on the card when we leave New York.
+						</p>
+						<p>
+							<strong>As a businessperson</strong>, I want to use the Metrocard I have from my last business trip, but don’t know how much is on it, or how much I should put on it for my two-day conference. I’m only going to meetings, and back to my hotel. How much should I put on?
+
+						</p>
+						<p>
+							Possible product name:<br>
+							<img src="images/metrocalc-logotype.png" alt="Metro Calc">
+						</p>
+						<p>
+							A list of key, identifying characteristics of our user population:
+							<ul>
+								<li>Age: Any</li>
+								<li>Income: Any</li>
+								<li>Gender: Any</li>
+								<li>Country: Any (plan on visiting, have visited, if not a resident of NYC)</li>
+								<li>Language: English</li>
+								<li>Education: Computer proficient and literate</li>
+								<li>Physical limitations: able to access public transportation</li>
+								<li>Computer experience: intermediate, comfortable using the computer</li>
+								<li>Web experience: intermediate: able to access the internet</li>
+								<li>Motivation, attitude: Motivated to save $. Motivated to not waste $</li>
+								<li>Identify different classes of users, e.g.:
+									<ul>
+										<li>By role (student, teacher, working professional)</li>
+										<li>By characteristics (age, motivation)</li>
+									</ul>
+								</li>
+							</ul>
+						</p>
+						<h4 class="pt-4">Task Analysis</h4>
+						<p>
+							The following tasks can be performed as users see fit:
+							<ul>
+								<li>Check how much value is left on your Metrocard
+									<ol>
+										<li>User must input the Metrocard’s ID number (located on back)</li>
+										<li>User must submit the info</li>
+									</ol>
+								</li>
+								<li>Check how much time is left on your Metrocard
+									<ol>
+										<li>User must input the Metrocard’s ID number (located on back)</li>
+										<li>User must submit the info</li>
+									</ol>
+								</li>
+								<li>Calculate how much value to add for a specific amount of rides on your Metrocard
+									<ol>
+										<li>User must input the Metrocard’s ID number (located on back)</li>
+										<li>User must submit the info</li>
+										<li>User should scroll to see their pricing matrix</li>
+									</ol>
+								</li>
+								<li>Calculate how much value to add for a specific amount of rides on your Metrocard
+									<ol>
+										<li>User must input the Metrocard’s ID number (located on back)</li>
+										<li>User must submit the info</li>
+										<li>User should scroll to see their pricing matrix</li>
+										<li>User can choose the value</li>
+										<li>User adds value to cart</li>
+										<li>User pays and checks out; the time/value is added to their card</li>
+									</ol>
+								</li>
+								<li>Check MTA updates on Twitter
+									<ol>
+										<li>User must agree to terms and conditions</li>
+										<li>User opens app to see Twitter feed</li>
+									</ol>
+								</li>
+							</ul>
+						</p>
+						<p>
+							Errors that may occur during task performance:
+							<ul>
+								<li>User is unable to locate ID number on back of Metrocard</li>
+								<li>Metrocard is expired</li>
+								<li>User enters incorrect ID</li>
+								<li>User attempts to buy more than one value/package</li>
+							</ul>
+						</p>
+						<h4 class="pt-4">Storyboard</h4>
+						<p>
+							MetroCalc app in use. The storyboard features three tasks that the app can perform.<br>
+							<img src="images/metrocalc-logo.png" alt="Metro Calc logo" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-1.jpg" alt="Metro Calc storyboard frame one" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-2.jpg" alt="Metro Calc storyboard frame two" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-3.jpg" alt="Metro Calc storyboard frame three" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-4.jpg" alt="Metro Calc storyboard frame four" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-5.jpg" alt="Metro Calc storyboard frame five" class="storyboard-image">
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+					</div>
+				</div>
+			</div>
 		</section>
 		<hr>
-		<section>
-			<h2 id="storyboard">Storyboard</h2>
-			<p>
-				MetroCalc app in use. The storyboard features three tasks that the app can perform.<br>
-				<img src="images/metrocalc-logo.png" alt="Metro Calc logo" class="storyboard-image">
-				<img src="images/metrocalc-storyboard-1.jpg" alt="Metro Calc storyboard frame one" class="storyboard-image">
-				<img src="images/metrocalc-storyboard-2.jpg" alt="Metro Calc storyboard frame two" class="storyboard-image">
-				<img src="images/metrocalc-storyboard-3.jpg" alt="Metro Calc storyboard frame three" class="storyboard-image">
-				<img src="images/metrocalc-storyboard-4.jpg" alt="Metro Calc storyboard frame four" class="storyboard-image">
-				<img src="images/metrocalc-storyboard-5.jpg" alt="Metro Calc storyboard frame five" class="storyboard-image">
-			</p>
+		<section id="prototype">
+			<div class="container">
+				<div class="row">
+					<div class="p-3 col-sm-12 text-center">
+						<h2>Prototype</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3>Instructions</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3>Shallow Aspects</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-3 col-sm-12 text-center">
+						<a href="http://armgardesign.com/lis-637/protoype/index.html" id="link-to-proto">
+							Click to use MetroCalc
+						</a>
+					</div>
+				</div>
+			</div>
 		</section>
 		<hr>
-		<section>
-			<h2 id="taskanalysis">Task Analysis</h2>
-			<h3>User Tasks</h3>
-			<p>
-				The following tasks can be performed as users see fit:
-				<ul>
-					<li>Check how much value is left on your Metrocard
-						<ol>
-							<li>User must input the Metrocard’s ID number (located on back)</li>
-							<li>User must submit the info</li>
-						</ol>
-					</li>
-					<li>Check how much time is left on your Metrocard
-						<ol>
-							<li>User must input the Metrocard’s ID number (located on back)</li>
-							<li>User must submit the info</li>
-						</ol>
-					</li>
-					<li>Calculate how much value to add for a specific amount of rides on your Metrocard
-						<ol>
-							<li>User must input the Metrocard’s ID number (located on back)</li>
-							<li>User must submit the info</li>
-							<li>User should scroll to see their pricing matrix</li>
-						</ol>
-					</li>
-					<li>Calculate how much value to add for a specific amount of rides on your Metrocard
-						<ol>
-							<li>User must input the Metrocard’s ID number (located on back)</li>
-							<li>User must submit the info</li>
-							<li>User should scroll to see their pricing matrix</li>
-							<li>User can choose the value</li>
-							<li>User adds value to cart</li>
-							<li>User pays and checks out; the time/value is added to their card</li>
-						</ol>
-					</li>
-					<li>Check MTA updates on Twitter
-						<ol>
-							<li>User must agree to terms and conditions</li>
-							<li>User opens app to see Twitter feed</li>
-						</ol>
-					</li>
-				</ul>
-			</p>
-			<p>
-				Errors that may occur during task performance:
-				<ul>
-					<li>User is unable to locate ID number on back of Metrocard</li>
-					<li>Metrocard is expired</li>
-					<li>User enters incorrect ID</li>
-					<li>User attempts to buy more than one value/package</li>
-				</ul>
-			</p>
+		<section id="testing">
+			<div class="container">
+				<div class="row">
+					<div class="p-3 col-sm-12 text-center">
+						<h2>User Testing</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">Design</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">Implementation</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">Evaluation</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3 class="pt-3">Reflection</h3>
+					</div>
+				</div>
+			</div>
 		</section>
 		<hr>
 		<section>
