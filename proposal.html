@@ -103,7 +103,35 @@
 								</li>
 							</ul>
 						</p>
-						<h4 class="pt-4">Task Analysis</h4>
+						<h4 class="pt-4">Storyboard</h4>
+						<p>
+							MetroCalc app in use. The storyboard features three tasks that the app can perform.<br>
+							<img src="images/metrocalc-logo.png" alt="Metro Calc logo" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-1.jpg" alt="Metro Calc storyboard frame one" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-2.jpg" alt="Metro Calc storyboard frame two" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-3.jpg" alt="Metro Calc storyboard frame three" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-4.jpg" alt="Metro Calc storyboard frame four" class="storyboard-image">
+							<img src="images/metrocalc-storyboard-5.jpg" alt="Metro Calc storyboard frame five" class="storyboard-image">
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section id="prototype">
+			<div class="container">
+				<div class="row">
+					<div class="p-3 col-sm-12 text-center">
+						<h2>Prototype</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="p-1 col-sm-12">
+						<h3>Instructions</h3>
 						<p>
 							The following tasks can be performed as users see fit:
 							<ul>
@@ -153,47 +181,22 @@
 								<li>User attempts to buy more than one value/package</li>
 							</ul>
 						</p>
-						<h4 class="pt-4">Storyboard</h4>
-						<p>
-							MetroCalc app in use. The storyboard features three tasks that the app can perform.<br>
-							<img src="images/metrocalc-logo.png" alt="Metro Calc logo" class="storyboard-image">
-							<img src="images/metrocalc-storyboard-1.jpg" alt="Metro Calc storyboard frame one" class="storyboard-image">
-							<img src="images/metrocalc-storyboard-2.jpg" alt="Metro Calc storyboard frame two" class="storyboard-image">
-							<img src="images/metrocalc-storyboard-3.jpg" alt="Metro Calc storyboard frame three" class="storyboard-image">
-							<img src="images/metrocalc-storyboard-4.jpg" alt="Metro Calc storyboard frame four" class="storyboard-image">
-							<img src="images/metrocalc-storyboard-5.jpg" alt="Metro Calc storyboard frame five" class="storyboard-image">
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="p-1 col-sm-12">
-					</div>
-				</div>
-			</div>
-		</section>
-		<hr>
-		<section id="prototype">
-			<div class="container">
-				<div class="row">
-					<div class="p-3 col-sm-12 text-center">
-						<h2>Prototype</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="p-1 col-sm-12">
-						<h3>Instructions</h3>
 					</div>
 				</div>
 				<div class="row">
 					<div class="p-1 col-sm-12">
 						<h3>Shallow Aspects</h3>
-					</div>
-				</div>
-				<div class="row">
-					<div class="p-3 col-sm-12 text-center">
-						<a href="http://armgardesign.com/lis-637/protoype/index.html" id="link-to-proto">
-							Click to use MetroCalc
-						</a>
+						<p>
+							MetroCard ID is tied to specific value amounts (000, 123, 321) to product a particular balance. This allows the user to focus on the process and reading the balance.
+						<p>	
+							The checkout and cart landing pages are static and not built out.
+						</p>
+						<p>
+							Input number does not have a maximum (user can exceed max values).
+						</p>
+						<p>
+							Missing an event listener for the card number input field (so that user can apply a hard return on keyboard).
+						</p>
 					</div>
 				</div>
 			</div>
@@ -207,109 +210,166 @@
 					</div>
 				</div>
 				<div class="row">
+					<div class="p-3 col-sm-12 text-center">
+						<a href="http://armgardesign.com/lis-637/protoype/index.html" id="link-to-proto">
+							Click to use MetroCalc
+						</a>
+					</div>
+				</div>
+				<div class="row">
 					<div class="p-1 col-sm-12">
 						<h3 class="pt-3">Design</h3>
+						<p>
+							In order to create Metrocalc, our team analyzed our user persona information and kept them in mind throughout the design process.  We designed mobile-first in order to maintain cross-device functionality, and embrace a minimal, flexible layout.   At it’s core, the interface is a calculator which takes the information from your Metrocard account and determines the most efficient spending with regard to adding rides. When a user enters the site, they’ll only be introduced with the site’s mission and a place to enter their Metrocard ID#.  Once the user submits their number, their balance, card expiration, and ride add features will be visible.
+						</p>
+						<img src="images/metrocalc-proto-1.png" alt="prototype example of metro card ID input field" class="my-4 border">
+						<p>
+							By segmenting the output of information, we’re reducing the user’s cognitive load and only giving them the information that they need.  Through our research we found that users needed fast, reliable, and easy to use tools for adding value to their Metrocards, so we chose to use a ride counter that would add rides and formulate the new price simultaneously.  Once the user entered their ID#, they would only have to choose how many rides they wanted, and press buy – a minimum of two clicks before reaching checkout.
+						</p>
+						<img src="images/metrocalc-proto-2.png" alt="prototype example of balance and price" class="my-4 border">
+						<p>
+							Based on our research, we realized our users might want to refill their card with time-based amounts as well.  Our team integrated a “Buy 7-day unlimited pass” and “Buy 30-day unlimited pass” options underneath our per-trip calculator so users could easily make a single click before reaching the checkout.
+						</p>
+							As an added bonus to our site, the team included an MTA Twitter feed to give users a sense of community and update them to any major transit news.
+						</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="p-1 col-sm-12">
 						<h3 class="pt-3">Implementation</h3>
+						</p>
+							To program our digital prototypes and visual designs, our team relied on a combination of HTML, CSS, JavaScript and JQuery.  The majority of our interface is completely functional, with only the cards themselves being hardcoded into the JavaScript.  The calculator aspect of the interface itself was written in JavaScript, and the Twitter feed was implemented using JQuery.  There were a few implementation issues that were out of scope, including linking the calculator output value to the subsequent cart page.  Another option that we could have done regarding the plus and minus input was to create a matrix of clickable options, each communicating a different price value for any combination of rides you wanted to take.  For our MVP we decided that the plus and minus counter would be more than sufficient and allow our users sufficient freedom in customizing their journey.  One user experience aspect that would be implemented in a future version is to allow users to press enter after they input their Metrocard ID# instead of clicking the submit button.
+						</p>
+						<img src="images/metrocalc-proto-3.png" alt="prototype example of rides counter" class="my-4 border">
 					</div>
 				</div>
 				<div class="row">
 					<div class="p-1 col-sm-12">
 						<h3 class="pt-3">Evaluation</h3>
+						<p>
+							MetroCalc is a tool to check the status of one’s NYC metrocard. In order to test it, our team of 3 usability professionals reached out to residents of NYC that utilizes the subway frequently. The users ranged in age and profession. One common factor was that the tester was a customer to the NYC subways. The users asked to walk through the following 5 tasks:
+							<ol>
+								<li>
+									Check how much value is left on your Metrocard
+									<ul>
+										<li>
+											User must input the Metrocard’s ID number (123)
+										</li>
+										<li>
+											User must submit the info
+										</li>
+									</ul>
+								</li>
+								<li>
+									Check how much time is left on your Metrocard
+									<ul>
+										<li>
+											User must input the Metrocard’s ID number (000)
+										</li>
+										<li>
+											User must submit the info
+										</li>
+									</ul>
+								</li>
+								<li>
+									Calculate how much value to add for a specific amount of rides on your Metrocard
+									<ul>
+										<li>
+											User must input the Metrocard’s ID number (123)
+										</li>
+										<li>
+											User must submit the info
+										</li>
+										<li>
+											User should scroll to see their pricing matrix
+										</li>
+									</ul>				
+								</li>
+								<li>
+									Calculate how much value to add for a specific amount of rides on your Metrocard
+									<ul>
+										<li>
+											User must input the Metrocard’s ID number (000)
+										</li>
+										<li>
+											User must submit the info
+										</li>
+										<li>
+											User should scroll to see their pricing matrix
+										</li>
+										<li>
+											User can choose the value
+										</li>
+										<li>
+											User adds value to cart
+										</li>
+										<li>
+											User pays and checks out; the time/value is added to their card
+										</li>
+									</ul>	
+								</li>
+								<li>
+									Check MTA updates on Twitter
+									<ul>
+										<li>
+											User must agree to terms and conditions
+										</li>
+										<li>
+											User opens app to see Twitter feed
+										</li>
+									</ul>
+								</li>
+							</ol>
+						</p>
+						<p>	
+							With the 5 tasks, the users were asked to go through the steps by thinking out loud to reflect the user's’ thinking process as a NYC subway user. The users were given two pre-determined metrocard IDs to mimic the experience of entering the metrocard number in the application. 
+						</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="p-1 col-sm-12">
 						<h3 class="pt-3">Reflection</h3>
+						<p>
+							<strong>Problem 1:</strong> User kept trying to click enter when submitting card numbers.
+​						</p>
+						<p>
+							<strong>Solution:</strong> Implement javascript event listener for enter button when user submits card number.
+						</p>
+						<p>
+							<strong>Problem 2:</strong> User ended up clicking a dozen times to change the amount of rides they needed. User complained that it was inefficient to keep tapping to get to the number you need.
+						</p>
+						<p>
+							<strong>Solution:</strong> Add a visual price matrix that shows users side-by-side ride/cost information instead of having them click a bunch of times. Then users would be able to see the larger picture instead of small increments.
+						</p>
+						<p>
+							<strong>Problem 3:</strong>  User found the wording of “How many rides will you take?” confusing. She didn’t realize it she is able to add and pay for that amount of rides until she saw the “Add $x.xx” button.
+​						</p>
+						<p>
+							<strong>Solution:</strong> Reword “how many rides will you take?” to something like “How many rides do you want to add to your card”.
+						</p>
+						<p>
+							<strong>Problem 4:</strong> User was confused moving from “Enter your MetroCard ID number to determine your balance.” to see the amount and time on card and “How many rides will you take?”
+						</p>
+						<p>
+							<strong>Solution:</strong> Clearly mark that “Enter your MetroCard ID” section and “how many rides will you take” section to be different sections through color or thicker breaker line.
+						</p>
+						<p>
+							<strong>Problem 5:</strong>  ​U​ser mentioned that what is missing is a hint on how and where to find the specific ID on a metrocard. This is similar to how payment forms guide you to find credit card numbers on cards. For example, credit card payment forms offer you a hint to find the CCV number on the back. 
+​						</p>
+						<p>
+							<strong>Solution:</strong> They offered a suggestion to employ a similar tactic to help new customers find the ID number.
+						</p>
+						<p>
+							<strong>Problem 6:</strong> User also mentioned that some riders/customers don’t understand the full restrictions of Unlimited passes. They noted that pay-per-rides offer more flexibility. For example, you can pay for multiple rides, one after the other, versus having to wait 15 minutes between swipes on an Unlimited card.
+						</p>
+						<p>
+							<strong>Solution:</strong> FAQ page or an FYI near the ‘Buy’ buttons.
+						</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<hr>
-		<section>
-			<h2 id="evaluation">Evaluation</h2>
-			<p>
-				MetroCalc is a tool to check the status of one’s NYC metrocard. In order to test it, our team of 3 usability professionals reached out to residents of NYC that utilizes the subway frequently. The users ranged in age and profession. One common factor was that the tester was a customer to the NYC subways. The users asked to walk through the following 5 tasks:
-				<ol>
-					<li>
-						Check how much value is left on your Metrocard
-						<ul>
-							<li>
-								User must input the Metrocard’s ID number (123)
-							</li>
-							<li>
-								User must submit the info
-							</li>
-						</ul>
-					</li>
-					<li>
-						Check how much time is left on your Metrocard
-						<ul>
-							<li>
-								User must input the Metrocard’s ID number (000)
-							</li>
-							<li>
-								User must submit the info
-							</li>
-						</ul>
-					</li>
-					<li>
-						Calculate how much value to add for a specific amount of rides on your Metrocard
-						<ul>
-							<li>
-								User must input the Metrocard’s ID number (123)
-							</li>
-							<li>
-								User must submit the info
-							</li>
-							<li>
-								User should scroll to see their pricing matrix
-							</li>
-						</ul>				
-					</li>
-					<li>
-						Calculate how much value to add for a specific amount of rides on your Metrocard
-						<ul>
-							<li>
-								User must input the Metrocard’s ID number (000)
-							</li>
-							<li>
-								User must submit the info
-							</li>
-							<li>
-								User should scroll to see their pricing matrix
-							</li>
-							<li>
-								User can choose the value
-							</li>
-							<li>
-								User adds value to cart
-							</li>
-							<li>
-								User pays and checks out; the time/value is added to their card
-							</li>
-						</ul>	
-					</li>
-					<li>
-						Check MTA updates on Twitter
-						<ul>
-							<li>
-								User must agree to terms and conditions
-							</li>
-							<li>
-								User opens app to see Twitter feed
-							</li>
-						</ul>
-					</li>
-				</ol>
-			</p>
-			<p>	
-				With the 5 tasks, the users were asked to go through the steps by thinking out loud to reflect the user's’ thinking process as a NYC subway user. The users were given two pre-determined metrocard IDs to mimic the experience of entering the metrocard number in the application. 
-			</p>
-		</section>
 		<section>
 			<a href="#top" id="link-to-top">^</a>
 		</section>
